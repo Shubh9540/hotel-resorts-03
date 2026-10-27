@@ -1,0 +1,2320 @@
+{
+  "common": {
+    "theme": {
+      "fonts": {
+        "primary": "var(--font-poppins), sans-serif",
+        "heading": "var(--font-poppins), sans-serif",
+        "navigation": "var(--font-poppins), sans-serif"
+      }
+    },
+    "metadata": {
+      "title": "Velora Resort & Spa | Luxury Beachfront Retreat",
+      "description": "Discover refined beachfront stays, thoughtful hospitality, premium amenities and memorable experiences at Velora Resort & Spa.",
+      "icon": "/main logo/logo.webp"
+    },
+    "globalUI": {
+      "breadcrumbSeparator": "/"
+    },
+    "Footer": {
+      "logo": "/main logo/logo.webp",
+      "logoAlt": "Velora Resort & Spa logo",
+      "logoUrl": "/",
+      "copyrightText": "© 2026 Velora Resort & Spa. All rights reserved. Powered By Lestow",
+      "quickLinksTitle": "Quick Links",
+      "contactTitle": "Get in touch",
+      "socialLinks": [
+        {
+          "id": "social-facebook",
+          "icon": "FaFacebookF",
+          "label": "Facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "id": "social-instagram",
+          "icon": "FaInstagram",
+          "label": "Instagram",
+          "url": "https://instagram.com"
+        },
+        {
+          "id": "social-youtube",
+          "icon": "FaYoutube",
+          "label": "YouTube",
+          "url": "https://youtube.com"
+        },
+        {
+          "id": "social-linkedin",
+          "icon": "FaLinkedinIn",
+          "label": "LinkedIn",
+          "url": "https://linkedin.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "quick-about",
+          "label": "About Us",
+          "url": "/about"
+        },
+        {
+          "id": "quick-amenities",
+          "label": "Amenities",
+          "url": "/amenities"
+        },
+        {
+          "id": "quick-dining",
+          "label": "Dining",
+          "url": "/#dining"
+        },
+        {
+          "id": "quick-attractions",
+          "label": "Attractions",
+          "url": "/activities-experiences"
+        },
+        {
+          "id": "quick-gallery",
+          "label": "Gallery",
+          "url": "/gallery"
+        },
+        {
+          "id": "quick-blog",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "id": "quick-contact",
+          "label": "Contact Us",
+          "url": "/contact"
+        }
+      ],
+      "contactItems": [
+        {
+          "id": "contact-address",
+          "value": "123 Main St, New York, NY, USA",
+          "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+        },
+        {
+          "id": "contact-phone",
+          "value": "+1 000000000",
+          "url": "tel:+1000000000"
+        },
+        {
+          "id": "contact-email",
+          "value": "info@xyz.com",
+          "url": "mailto:info@xyz.com"
+        }
+      ],
+      "description": "A serene beachfront retreat offering luxurious stays, thoughtful hospitality and unforgettable resort experiences.",
+      "roomsTitle": "Rooms & Suites",
+      "roomLinks": [
+        {
+          "id": "footer-room-ocean-view-suite",
+          "label": "Ocean View Suite",
+          "url": "/rooms-suites/ocean-view-suite"
+        },
+        {
+          "id": "footer-room-family-suite",
+          "label": "Family Suite",
+          "url": "/rooms-suites/family-suite"
+        },
+        {
+          "id": "footer-room-wellness-suite",
+          "label": "Wellness Suite",
+          "url": "/rooms-suites/wellness-suite"
+        },
+        {
+          "id": "footer-room-honeymoon-suite",
+          "label": "Honeymoon Suite",
+          "url": "/rooms-suites/honeymoon-suite"
+        }
+      ],
+      "contactPrompt": "Contact Us!"
+    },
+    "notFound": {
+      "code": "404",
+      "title": "Oops! Page Not Found",
+      "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "buttonText": "Back to Home",
+      "buttonUrl": "/"
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-about-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-about-current",
+          "label": "About Us"
+        }
+      ]
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-contact-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-contact-current",
+          "label": "Contact Us"
+        }
+      ]
+    },
+    "blogsBreadcrumb": {
+      "title": "Blog",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-blogs-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-blogs-current",
+          "label": "Blog"
+        }
+      ]
+    },
+    "blogDetailBreadcrumb": {
+      "title": "Blog Detail",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-blog-detail-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-blog-detail-current",
+          "label": "Blog Detail"
+        }
+      ]
+    },
+    "galleryBreadcrumb": {
+      "title": "Our Gallery",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "breadcrumb-gallery-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-gallery-current",
+          "label": "Our Gallery"
+        }
+      ]
+    },
+    "roomsSuitesBreadcrumb": {
+      "title": "Rooms Suites",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "rooms-breadcrumb-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "rooms-breadcrumb-current",
+          "label": "Rooms Suites"
+        }
+      ]
+    },
+    "amenitiesBreadcrumb": {
+      "title": "Amenities",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "amenities-breadcrumb-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "amenities-breadcrumb-current",
+          "label": "Amenities"
+        }
+      ]
+    },
+    "teamBreadcrumb": {
+      "title": "Our Team",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "team-breadcrumb-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "team-breadcrumb-current",
+          "label": "Our Team"
+        }
+      ]
+    },
+    "activitiesExperiencesBreadcrumb": {
+      "title": "Activities & Experiences",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "activities-breadcrumb-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "activities-breadcrumb-current",
+          "label": "Activities & Experiences"
+        }
+      ]
+    },
+    "faqsBreadcrumb": {
+      "title": "Faqs",
+      "bgImage": "/main logo/breadcrumb.webp",
+      "paths": [
+        {
+          "id": "faqs-breadcrumb-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "faqs-breadcrumb-current",
+          "label": "Faqs"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "Hotel": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "HotelHeader1": {
+              "logo": "/main logo/logo.webp",
+              "logoAlt": "Velora Resort & Spa logo",
+              "logoUrl": "/",
+              "phoneLabel": "Chat with Velora Resort & Spa on WhatsApp",
+              "phoneValue": "+1 1234567890",
+              "phoneUrl": "https://wa.me/11234567890",
+              "menuLabel": "Main navigation",
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nl-rooms-suites",
+                  "label": "Rooms & Suites",
+                  "url": "/rooms-suites"
+                },
+                {
+                  "id": "nl-amenities",
+                  "label": "Amenities",
+                  "url": "/amenities"
+                },
+                {
+                  "id": "nl-team",
+                  "label": "Team",
+                  "url": "/team"
+                }
+              ],
+              "navLinksRight": [
+                {
+                  "id": "nl-activities-experiences",
+                  "label": "Activities & Experiences",
+                  "url": "/activities-experiences"
+                },
+                {
+                  "id": "nl-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                },
+                {
+                  "id": "nl-faqs",
+                  "label": "Faqs",
+                  "url": "/faqs"
+                },
+                {
+                  "id": "nl-contact",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                },
+                {
+                  "id": "nl-blog",
+                  "label": "Blog",
+                  "url": "/blog"
+                }
+              ],
+              "openMenuLabel": "Open navigation menu",
+              "closeMenuLabel": "Close navigation menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "HotelHero1": {
+              "backgroundImage": "/banner/banner.webp",
+              "backgroundImageAlt": "Velora Resort & Spa beachfront pool at sunset"
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "HotelAboutUs1": {
+              "subtitle": "ABOUT US",
+              "title": "A Hidden Paradise By The Sea",
+              "description": "Velora Resort & Spa is a luxury beachfront retreat where nature, comfort and exceptional service come together to create unforgettable experiences. Surrounded by pristine beaches, lush greenery and stunning ocean views, our resort offers the perfect escape for relaxation, romance and adventure.",
+              "image": "/about/about.webp",
+              "imageAlt": "Modern beachfront villa and private pool at Velora Resort & Spa",
+              "backgroundImage": "/banner/section_bg_gold.webp",
+              "buttonText": "Learn More",
+              "buttonUrl": "/about",
+              "counterDurationMs": 1800,
+              "stats": [
+                {
+                  "id": "about-years-hospitality",
+                  "value": 15,
+                  "suffix": "+",
+                  "label": "Years of Hospitality"
+                },
+                {
+                  "id": "about-happy-guests",
+                  "value": 5000,
+                  "suffix": "+",
+                  "label": "Happy Guests"
+                },
+                {
+                  "id": "about-luxury-rooms",
+                  "value": 50,
+                  "suffix": "+",
+                  "label": "Luxury Rooms & Villas"
+                }
+              ]
+            }
+          }
+        },
+        "MissionVision": {
+          "variants": {
+            "HotelMissionVision1": {
+              "tabs": [
+                {
+                  "id": "about-mission",
+                  "label": "Our Mission",
+                  "eyebrow": "Our Mission",
+                  "title": "Creating Unforgettable Experiences",
+                  "description": "Our mission is to provide exceptional hospitality, world-class amenities and personalized service that create memorable experiences for every guest. We are committed to offering a serene and luxurious escape where comfort, nature and wellbeing come together in perfect harmony.",
+                  "image": "/amenities/01_pool.webp",
+                  "imageAlt": "Velora Resort infinity pool at sunset"
+                },
+                {
+                  "id": "about-vision",
+                  "label": "Our Vision",
+                  "eyebrow": "Our Vision",
+                  "title": "A New Standard of Coastal Hospitality",
+                  "description": "Our vision is to become a cherished beachfront destination known for thoughtful service, responsible luxury and inspiring guest experiences shaped by the beauty of our natural surroundings.",
+                  "image": "/about/about.webp",
+                  "imageAlt": "Velora Resort beachfront villa"
+                }
+              ]
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "HotelWhyChooseUs1": {
+              "eyebrow": "Why Choose Us",
+              "title": "Reasons For Choosing",
+              "highlight": "Our Luxury Resort",
+              "description": "From handpicked luxury stays to personalized service, we deliver more than just a vacation—we create unforgettable experiences.",
+              "mainImage": "/amenities/05_room.webp",
+              "mainImageAlt": "Guest relaxing in a luxury Velora suite",
+              "badgeTitle": "Velora Resort & Spa",
+              "lowerImage": "/amenities/02_restaurant.webp",
+              "lowerImageAlt": "Elegant dining lounge at Velora Resort",
+              "features": [
+                {
+                  "id": "why-world-class-hospitality",
+                  "icon": "FaCrown",
+                  "title": "World-Class Hospitality",
+                  "description": "Experience personalized service with a warm and friendly team dedicated to your comfort."
+                },
+                {
+                  "id": "why-premium-amenities",
+                  "icon": "FaSpa",
+                  "title": "Premium Amenities",
+                  "description": "Enjoy state-of-the-art facilities, fine dining, spa and wellness experiences."
+                },
+                {
+                  "id": "why-safe-stay",
+                  "icon": "FaShieldAlt",
+                  "title": "Safe & Hassle-Free Stay",
+                  "description": "Secure booking, flexible policies and complete privacy for a worry-free experience."
+                },
+                {
+                  "id": "why-concierge-support",
+                  "icon": "FaConciergeBell",
+                  "title": "24/7 Concierge Support",
+                  "description": "Our dedicated team is always available before, during and after your stay."
+                }
+              ]
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "HotelBlogs1": {
+              "authorPrefix": "By",
+              "authors": [
+                {
+                  "id": "blog-author-daniel",
+                  "name": "Priya Sharma"
+                }
+              ],
+              "detail": {
+                "quoteText": "Great food brings people together and turns ordinary moments into extraordinary memories. At our resort, every meal is an experience crafted with passion and care.",
+                "quoteAuthor": "Michael Carter",
+                "quoteRole": "Executive Chef",
+                "commentsLabel": "Comments",
+                "conclusionTitle": "A Taste to Remember",
+                "conclusionText": "From an intimate sunset dinner to a relaxed poolside lunch, every Velora dining experience is thoughtfully prepared to become a lasting part of your stay.",
+                "sections": [
+                  {
+                    "id": "dining-detail-sunset-beach",
+                    "number": "1",
+                    "title": "Sunset Fine Dining by the Beach",
+                    "description": "Experience a breathtaking evening with a specially curated menu, fresh seasonal ingredients and premium wines while enjoying beautiful ocean views. The serene ambience and personalized service make it perfect for couples and special occasions.",
+                    "image": "/amenities/02_restaurant.webp",
+                    "imageAlt": "Elegant sunset dining experience at Velora Resort"
+                  },
+                  {
+                    "id": "dining-detail-poolside-bistro",
+                    "number": "2",
+                    "title": "Poolside Bistro",
+                    "description": "Relax by the pool and enjoy a selection of light bites, refreshing beverages and tropical favorites. It is the perfect setting to unwind, soak up the sun and savor delicious food at an easy pace.",
+                    "image": "/amenities/01_pool.webp",
+                    "imageAlt": "Velora Resort poolside dining and leisure area"
+                  }
+                ],
+                "introText": "Dining at Velora Resort is more than just a meal — it is a journey of flavors, ambience and unforgettable moments. From elegant fine dining to relaxed poolside bites, every experience is crafted to delight your senses and create lasting memories.",
+                "recentPostsTitle": "Recent Post"
+              },
+              "posts": [
+                {
+                  "id": "luxury-resort-stay-guide",
+                  "category": "Hotel Booking",
+                  "title": "5 Incredible Dining Experiences You Must Try at Our Resort",
+                  "description": "Whether you are a food enthusiast or simply love exploring new cuisines, our resort offers memorable dining options designed to suit every mood and occasion.",
+                  "date": "12 Nov 2026",
+                  "image": "/amenities/02_restaurant.webp",
+                  "imageAlt": "Luxury sunset dining experience overlooking the ocean",
+                  "url": "/blog/blog-details",
+                  "authorId": "blog-author-daniel",
+                  "comments": "320"
+                },
+                {
+                  "id": "essential-travel-tips",
+                  "category": "Wellness",
+                  "title": "Swimming Benefits Are Good For Your Health",
+                  "date": "12 Oct 2026",
+                  "image": "/amenities/01_pool.webp",
+                  "imageAlt": "Velora Resort infinity swimming pool",
+                  "url": "/blog/blog-details"
+                },
+                {
+                  "id": "first-solo-trip",
+                  "category": "Hotel Guide",
+                  "title": "Discover Our New Health Club and Fitness Center",
+                  "date": "08 Oct 2026",
+                  "image": "/amenities/04_gym.webp",
+                  "imageAlt": "Modern fitness center at Velora Resort",
+                  "url": "/blog/blog-details"
+                },
+                {
+                  "id": "experiencing-local-cultures",
+                  "category": "Culture",
+                  "title": "Experiencing Local Cultures: Food, People and Traditions",
+                  "date": "05 Oct 2026",
+                  "image": "/amenities/03_spa.webp",
+                  "imageAlt": "Golden Temple reflected in the water in Amritsar",
+                  "url": "/blog/blog-details"
+                },
+                {
+                  "id": "complete-beach-holiday-guide",
+                  "category": "Travel Guides",
+                  "title": "A Complete Guide to Planning a Beach Holiday",
+                  "date": "01 Oct 2026",
+                  "image": "/amenities/05_room.webp",
+                  "imageAlt": "Overwater villas surrounded by clear turquoise sea",
+                  "url": "/blog/blog-details"
+                },
+                {
+                  "id": "best-hiking-trails",
+                  "category": "Hiking",
+                  "title": "Best Hiking Trails for Nature Lovers",
+                  "date": "28 Sep 2026",
+                  "image": "/other/1.webp",
+                  "imageAlt": "Green Himalayan valley framed by mountain peaks",
+                  "url": "/blog/blog-details"
+                },
+                {
+                  "id": "weekend-city-breaks",
+                  "category": "City Breaks",
+                  "title": "The Best Weekend City Breaks for Curious Travelers",
+                  "date": "24 Sep 2026",
+                  "image": "/amenities/06_evening_lounge.webp",
+                  "imageAlt": "Gateway of India and historic waterfront in Mumbai",
+                  "url": "/blog/blog-details"
+                },
+                {
+                  "id": "packing-light",
+                  "category": "Travel Tips",
+                  "title": "How to Pack Light for a Two-Week Adventure",
+                  "date": "20 Sep 2026",
+                  "image": "/other/2.webp",
+                  "imageAlt": "Shikara boats on Dal Lake with mountains in the background",
+                  "url": "/blog/blog-details"
+                },
+                {
+                  "id": "hidden-coastal-gems",
+                  "category": "Resort Life",
+                  "title": "Hidden Coastal Gems Worth Adding to Your List",
+                  "date": "16 Sep 2026",
+                  "image": "/other/3.webp",
+                  "imageAlt": "Clear tropical water and a quiet sandy island beach",
+                  "url": "/blog/blog-details"
+                }
+              ],
+              "popularDescription": "Discover resort updates, destination guides and inspiring stories designed to make your stay at Velora Resort & Spa even more memorable.",
+              "viewAllText": "View All Blogs",
+              "latestTitle": "Latest",
+              "latestHighlight": "Blogs",
+              "listingEyebrow": "OUR BLOG",
+              "listingTitle": "Latest News &",
+              "listingHighlight": "Stories",
+              "listingDescription": "Discover travel tips, resort updates, destination guides and inspiring stories to make your stay at Velora Resort & Spa even more memorable.",
+              "recentPostIds": [
+                "essential-travel-tips",
+                "first-solo-trip",
+                "experiencing-local-cultures"
+              ],
+              "homeSubtitle": "OUR BLOG",
+              "homePostIds": [
+                "luxury-resort-stay-guide",
+                "essential-travel-tips",
+                "first-solo-trip"
+              ],
+              "listingPostIds": [
+                "luxury-resort-stay-guide",
+                "essential-travel-tips",
+                "first-solo-trip",
+                "experiencing-local-cultures",
+                "complete-beach-holiday-guide",
+                "best-hiking-trails",
+                "weekend-city-breaks",
+                "packing-light",
+                "hidden-coastal-gems"
+              ],
+              "detailPostId": "luxury-resort-stay-guide",
+              "detailPageUrl": "/blog/blog-details"
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "HotelContact1": {
+              "form": {
+                "eyebrow": "SEND US A MESSAGE",
+                "title": "Feel Free to",
+                "titleHighlight": "Write",
+                "description": "Share your questions, booking details or special requests with our team.",
+                "nameLabel": "Your Name",
+                "namePlaceholder": "Enter Name",
+                "nameIcon": "FaUser",
+                "emailLabel": "Your Email",
+                "emailPlaceholder": "Enter Email",
+                "emailIcon": "FaEnvelope",
+                "phoneLabel": "Phone Number",
+                "phonePlaceholder": "Enter Phone",
+                "phoneIcon": "FaPhoneAlt",
+                "subjectLabel": "Subject",
+                "subjectPlaceholder": "Enter Subject",
+                "subjectIcon": "FaClipboardList",
+                "messageLabel": "Message",
+                "messagePlaceholder": "Enter Message",
+                "messageIcon": "FaCommentDots",
+                "buttonText": "Send Message",
+                "buttonIcon": "FaArrowRight",
+                "successMessage": "Thank you. Your message has been submitted successfully."
+              },
+              "contactItems": [
+                {
+                  "id": "contact-info-phone",
+                  "icon": "FaPhoneAlt",
+                  "title": "CALL US",
+                  "lines": [
+                    {
+                      "id": "contact-phone-number",
+                      "text": "+1 1234567890"
+                    }
+                  ],
+                  "url": "tel:+11234567890"
+                },
+                {
+                  "id": "contact-info-email",
+                  "icon": "FaEnvelope",
+                  "title": "EMAIL US",
+                  "lines": [
+                    {
+                      "id": "contact-email-address",
+                      "text": "info@xyz.com"
+                    },
+                    {
+                      "id": "contact-email-response-time",
+                      "text": "We'll get back to you within 24 hours."
+                    }
+                  ],
+                  "url": "mailto:info@xyz.com"
+                },
+                {
+                  "id": "contact-info-location",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "VISIT US",
+                  "lines": [
+                    {
+                      "id": "contact-location-address",
+                      "text": "123 Main St, New York, NY, USA"
+                    }
+                  ],
+                  "url": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA"
+                }
+              ],
+              "location": {
+                "mapUrl": "https://www.google.com/maps?q=New+York,+NY,+USA&output=embed",
+                "mapTitle": "Map showing New York, USA"
+              },
+              "eyebrow": "CONTACT US",
+              "title": "Get in Touch",
+              "titleHighlight": "With Us",
+              "description": "We're here to assist you with any questions, special requests or booking inquiries. Feel free to reach out to our team — we'd love to help you plan your perfect stay at Velora Resort & Spa.",
+              "decorativeIcon": "FaSpa",
+              "contactInfoEyebrow": "NEED ANY HELP?",
+              "contactInfoTitle": "Contact Information",
+              "contactInfoDescription": "You can also reach us directly using the details below. Our team is available to assist you with bookings, inquiries and any special requests.",
+              "locationEyebrow": "OUR LOCATION",
+              "locationTitle": "Find Us Here",
+              "locationDescription": "We look forward to welcoming you to Velora Resort & Spa."
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "HotelTestimonials1": {
+              "subtitle": "Testimonials",
+              "titleLine1": "What Our Guests",
+              "highlightedTitle": "Say?",
+              "slideLabel": "Show testimonial",
+              "items": [
+                {
+                  "id": "testimonial-priya-sharma",
+                  "quote": "Our stay at Velora Resort & Spa was absolutely amazing. The location, thoughtful service and peaceful atmosphere made every moment feel special.",
+                  "name": "Priya Sharma",
+                  "location": "New Delhi, India",
+                  "image": "/other/1.webp",
+                  "imageAlt": "Scenic canals and historic architecture in Venice",
+                  "avatar": "/team/02.webp",
+                  "avatarAlt": "Traveler Priya Sharma"
+                },
+                {
+                  "id": "testimonial-amit-verma",
+                  "quote": "An incredible experience from start to finish! The accommodation, service and thoughtful support were beyond our expectations. Highly recommended for a relaxing stay.",
+                  "name": "Amit Verma",
+                  "location": "Mumbai, India",
+                  "image": "/other/2.webp",
+                  "imageAlt": "A clear alpine lake surrounded by Swiss mountains",
+                  "avatar": "/team/03.webp",
+                  "avatarAlt": "Traveler Amit Verma"
+                },
+                {
+                  "id": "testimonial-raushan-kapoor",
+                  "quote": "The resort team handled every detail beautifully. We felt comfortable, cared for and completely relaxed throughout our stay.",
+                  "name": "Raushan Kapoor",
+                  "location": "Bangalore, India",
+                  "image": "/other/3.webp",
+                  "imageAlt": "Paris rooftops and the Eiffel Tower at sunset",
+                  "avatar": "/team/04.webp",
+                  "avatarAlt": "Traveler Raushan Kapoor"
+                },
+                {
+                  "id": "testimonial-rohan-mehta",
+                  "quote": "From our elegant room to the wonderful dining and pool, every part of the experience exceeded our expectations.",
+                  "name": "Rohan Mehta",
+                  "location": "Pune, India",
+                  "image": "/other/4.webp",
+                  "imageAlt": "Japanese pagoda beneath Mount Fuji and cherry blossoms",
+                  "avatar": "/team/1.webp",
+                  "avatarAlt": "Traveler Rohan Mehta"
+                },
+                {
+                  "id": "testimonial-ananya-rao",
+                  "quote": "Velora gave us the perfect balance of comfort, beautiful views and warm hospitality. We would happily return again.",
+                  "name": "Ananya Rao",
+                  "location": "Hyderabad, India",
+                  "image": "/other/5.webp",
+                  "imageAlt": "Dubai skyline and coastline viewed from above",
+                  "avatar": "/team/02.webp",
+                  "avatarAlt": "Traveler Ananya Rao"
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "HotelGallery1": {
+              "eyebrow": "OUR GALLERY",
+              "title": "Explore Our",
+              "highlightedTitle": "Luxurious Spaces",
+              "description": "Take a visual tour of our elegant rooms, world-class amenities and beautiful surroundings at Velora Resort & Spa.",
+              "pageSize": 8,
+              "loadMoreLabel": "View More",
+              "previousLabel": "Previous gallery images",
+              "nextLabel": "Next gallery images",
+              "closeLabel": "Close gallery image",
+              "openImageLabel": "Open gallery image",
+              "images": [
+                {
+                  "id": "gallery-room-one",
+                  "image": "/other/1.webp",
+                  "imageAlt": "Elegant guest room at Velora Resort"
+                },
+                {
+                  "id": "gallery-room-two",
+                  "image": "/other/2.webp",
+                  "imageAlt": "Bright and comfortable resort bedroom"
+                },
+                {
+                  "id": "gallery-room-three",
+                  "image": "/other/3.webp",
+                  "imageAlt": "Sunlit suite with panoramic windows"
+                },
+                {
+                  "id": "gallery-tropical-pool",
+                  "image": "/other/4.webp",
+                  "imageAlt": "Tropical resort pool surrounded by palm trees"
+                },
+                {
+                  "id": "gallery-resort-interior",
+                  "image": "/other/5.webp",
+                  "imageAlt": "Elegant interior space at Velora Resort"
+                },
+                {
+                  "id": "gallery-infinity-pool",
+                  "image": "/other/infinity_pool.webp",
+                  "imageAlt": "Infinity pool overlooking the resort landscape"
+                },
+                {
+                  "id": "gallery-restaurant",
+                  "image": "/other/resturant.webp",
+                  "imageAlt": "Warm and inviting resort restaurant"
+                },
+                {
+                  "id": "gallery-spa",
+                  "image": "/other/spa.webp",
+                  "imageAlt": "Peaceful spa treatment experience"
+                },
+                {
+                  "id": "gallery-pool-sunset",
+                  "image": "/amenities/01_pool.webp",
+                  "imageAlt": "Resort infinity pool at sunset"
+                },
+                {
+                  "id": "gallery-fine-dining",
+                  "image": "/amenities/02_restaurant.webp",
+                  "imageAlt": "Fine dining space with scenic views"
+                },
+                {
+                  "id": "gallery-wellness-room",
+                  "image": "/amenities/03_spa.webp",
+                  "imageAlt": "Relaxing wellness and spa room"
+                },
+                {
+                  "id": "gallery-fitness-center",
+                  "image": "/amenities/04_gym.webp",
+                  "imageAlt": "Modern resort fitness center"
+                },
+                {
+                  "id": "gallery-premium-room",
+                  "image": "/amenities/05_room.webp",
+                  "imageAlt": "Premium room with a private view"
+                },
+                {
+                  "id": "gallery-evening-lounge",
+                  "image": "/amenities/06_evening_lounge.webp",
+                  "imageAlt": "Evening lounge overlooking the coast"
+                },
+                {
+                  "id": "gallery-beachfront-villa",
+                  "image": "/about/about.webp",
+                  "imageAlt": "Beachfront villa and private pool"
+                },
+                {
+                  "id": "gallery-resort-banner",
+                  "image": "/banner/banner.webp",
+                  "imageAlt": "Velora Resort and Spa coastal retreat"
+                }
+              ]
+            }
+          }
+        },
+        "OurTeam": {
+          "variants": {
+            "HotelOurTeam1": {
+              "subtitle": "HOTEL STAFFS",
+              "titleLine1": "Our Dedicated",
+              "highlightedTitle": "Team",
+              "description": "Meet the dedicated hospitality professionals who make every Velora Resort & Spa stay warm, comfortable and memorable.",
+              "founder": {
+                "portrait": "/team/1.webp",
+                "portraitAlt": "Rohan Mehta, founder of Velora Resort & Spa",
+                "backgroundImage": "/about/about.webp",
+                "backgroundImageAlt": "Elegant beachfront lounge at Velora Resort & Spa",
+                "quoteMark": "“",
+                "eyebrow": "OUR FOUNDER",
+                "description": "Velora was founded on the belief that every guest deserves a thoughtful balance of coastal elegance and heartfelt hospitality. We create peaceful stays where comfort, personal service and memorable experiences come together.",
+                "name": "Rohan Mehta",
+                "role": "Founder of Velora Resort & Spa",
+                "featureEyebrow": "PEOPLE HOSPITALITY EXPERIENCES",
+                "featureTitle": "OUR TEAM MAKES IT POSSIBLE."
+              },
+              "cardActionIcon": "FaPlus",
+              "socialLinks": [
+                {
+                  "id": "team-social-facebook",
+                  "icon": "FaFacebookF",
+                  "label": "Facebook",
+                  "url": "https://facebook.com"
+                },
+                {
+                  "id": "team-social-instagram",
+                  "icon": "FaInstagram",
+                  "label": "Instagram",
+                  "url": "https://instagram.com"
+                },
+                {
+                  "id": "team-social-linkedin",
+                  "icon": "FaLinkedinIn",
+                  "label": "LinkedIn",
+                  "url": "https://linkedin.com"
+                }
+              ],
+              "members": [
+                {
+                  "id": "team-member-1",
+                  "name": "Rohan Mehta",
+                  "role": "General Manager",
+                  "image": "/team/1.webp",
+                  "imageAlt": "Rohan Mehta, General Manager"
+                },
+                {
+                  "id": "team-member-2",
+                  "name": "Priya Sharma",
+                  "role": "Guest Relations Manager",
+                  "image": "/team/02.webp",
+                  "imageAlt": "Priya Sharma, Guest Relations Manager"
+                },
+                {
+                  "id": "team-member-3",
+                  "name": "Amit Verma",
+                  "role": "Activities Manager",
+                  "image": "/team/03.webp",
+                  "imageAlt": "Amit Verma, Activities Manager"
+                },
+                {
+                  "id": "team-member-4",
+                  "name": "Karan Kapoor",
+                  "role": "Wellness Manager",
+                  "image": "/team/04.webp",
+                  "imageAlt": "Karan Kapoor, Wellness Manager"
+                },
+                {
+                  "id": "team-member-5",
+                  "name": "Ananya Rao",
+                  "role": "Head Housekeeper",
+                  "image": "/team/02.webp",
+                  "imageAlt": "Ananya Rao, Head Housekeeper"
+                },
+                {
+                  "id": "team-member-6",
+                  "name": "Vikram Singh",
+                  "role": "Concierge Supervisor",
+                  "image": "/team/03.webp",
+                  "imageAlt": "Vikram Singh, Concierge Supervisor"
+                }
+              ]
+            }
+          }
+        },
+        "Facilities": {
+          "variants": {
+            "HotelFacilities1": {
+              "eyebrow": "Hoteliers Services",
+              "title": "Hotel Facilities",
+              "items": [
+                {
+                  "id": "facility-room-service",
+                  "icon": "FaConciergeBell",
+                  "title": "Room Service",
+                  "description": "Thoughtful in-room service for a comfortable and effortless stay."
+                },
+                {
+                  "id": "facility-pickup",
+                  "icon": "FaBell",
+                  "title": "Pick Up & Drop",
+                  "description": "Convenient arrival and departure assistance arranged for our guests."
+                },
+                {
+                  "id": "facility-internet",
+                  "icon": "FaWifi",
+                  "title": "Fibre Internet",
+                  "description": "Fast and reliable connectivity throughout the resort."
+                },
+                {
+                  "id": "facility-breakfast",
+                  "icon": "FaUtensils",
+                  "title": "Breakfast",
+                  "description": "Freshly prepared breakfasts with local and international favorites."
+                },
+                {
+                  "id": "facility-pool",
+                  "icon": "FaSwimmingPool",
+                  "title": "Swimming Pool",
+                  "description": "A relaxing infinity pool surrounded by tropical resort views."
+                },
+                {
+                  "id": "facility-parking",
+                  "icon": "FaCar",
+                  "title": "Parking Space",
+                  "description": "Secure and convenient parking available for every guest."
+                }
+              ]
+            }
+          }
+        },
+        "ResortStats": {
+          "variants": {
+            "HotelResortStats1": {
+              "backgroundImage": "/amenities/06_evening_lounge.webp",
+              "counterDurationMs": 1600,
+              "items": [
+                {
+                  "id": "stat-rating",
+                  "value": 180,
+                  "suffix": "+",
+                  "label": "Five star ratings",
+                  "icon": "FaAward"
+                },
+                {
+                  "id": "stat-satisfaction",
+                  "value": 100,
+                  "suffix": "%",
+                  "label": "Service satisfied",
+                  "icon": "FaSmile"
+                },
+                {
+                  "id": "stat-staff",
+                  "value": 480,
+                  "suffix": "+",
+                  "label": "Our staff",
+                  "icon": "FaUsers"
+                },
+                {
+                  "id": "stat-guests",
+                  "value": 40,
+                  "suffix": "K+",
+                  "label": "Happy guests",
+                  "icon": "FaHotel"
+                }
+              ]
+            }
+          }
+        },
+        "NearbyPlaces": {
+          "variants": {
+            "HotelNearbyPlaces1": {
+              "eyebrow": "See Place",
+              "titleLine1": "Places Around The Hotel",
+              "titleLine2": "To Visit This",
+              "titleHighlight": "Summer",
+              "places": [
+                {
+                  "id": "place-coast",
+                  "image": "/amenities/01_pool.webp",
+                  "imageAlt": "Scenic coast near Velora Resort"
+                },
+                {
+                  "id": "place-mountains",
+                  "image": "/other/2.webp",
+                  "imageAlt": "Mountain landscape near the resort"
+                },
+                {
+                  "id": "place-city",
+                  "image": "/other/5.webp",
+                  "imageAlt": "Historic destination close to Velora Resort"
+                },
+                {
+                  "id": "place-sunset",
+                  "image": "/amenities/06_evening_lounge.webp",
+                  "imageAlt": "Sunset viewpoint near Velora Resort"
+                }
+              ]
+            }
+          }
+        },
+        "ActivitiesExperiences": {
+          "variants": {
+            "HotelActivitiesExperiences1": {
+              "eyebrow": "ACTIVITIES & EXPERIENCES",
+              "titleLine1": "Unforgettable Experiences",
+              "titleLine2": "Beyond",
+              "titleHighlight": "Your Stay",
+              "description": "From thrilling outdoor adventures to relaxing leisure activities, explore a wide range of experiences designed to make your stay at Velora Resort & Spa truly memorable.",
+              "items": [
+                {
+                  "id": "activity-water",
+                  "number": "01",
+                  "icon": "FaSwimmer",
+                  "title": "Water Activities",
+                  "description": "Dive into adventure with swimming, kayaking and guided water experiences created for memorable days by the coast.",
+                  "image": "/amenities/01_pool.webp",
+                  "imageAlt": "Infinity pool and coastal water experience at Velora Resort"
+                },
+                {
+                  "id": "activity-nature-adventure",
+                  "number": "02",
+                  "icon": "FaHiking",
+                  "title": "Nature & Adventure",
+                  "description": "Discover scenic trails, guided nature walks and beautiful viewpoints while enjoying outdoor explorations around the resort.",
+                  "image": "/other/4.webp",
+                  "imageAlt": "Tropical landscape for nature and adventure experiences"
+                },
+                {
+                  "id": "activity-culinary",
+                  "number": "03",
+                  "icon": "FaUtensils",
+                  "title": "Culinary Experiences",
+                  "description": "Enjoy private dining, local cuisine tastings and themed culinary events thoughtfully prepared by our experienced chefs.",
+                  "image": "/amenities/02_restaurant.webp",
+                  "imageAlt": "Fine dining experience with an elegant resort setting"
+                },
+                {
+                  "id": "activity-wellness",
+                  "number": "04",
+                  "icon": "FaSpa",
+                  "title": "Wellness & Spa Activities",
+                  "description": "Rejuvenate with yoga sessions, meditation, spa rituals and wellness programs designed for relaxation and inner balance.",
+                  "image": "/amenities/03_spa.webp",
+                  "imageAlt": "Relaxing spa and wellness experience at Velora Resort"
+                },
+                {
+                  "id": "activity-cultural",
+                  "number": "05",
+                  "icon": "FaLandmark",
+                  "title": "Cultural Experiences",
+                  "description": "Connect with local culture through traditional experiences, regional stories and guided visits that celebrate the destination.",
+                  "image": "/other/5.webp",
+                  "imageAlt": "Elegant heritage-inspired setting for cultural experiences"
+                },
+                {
+                  "id": "activity-excursions",
+                  "number": "06",
+                  "icon": "FaBinoculars",
+                  "title": "Excursions & Day Trips",
+                  "description": "Take guided excursions to nearby viewpoints and coastal attractions, discover hidden gems and create lasting memories beyond the resort.",
+                  "image": "/amenities/06_evening_lounge.webp",
+                  "imageAlt": "Scenic coastal destination for excursions and day trips"
+                }
+              ]
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "HotelFaq1": {
+              "eyebrow": "FAQS",
+              "title": "Frequently",
+              "highlightedTitle": "Asked Questions",
+              "description": "Find answers to the most common questions about your stay, facilities, bookings and experiences at Velora Resort & Spa.",
+              "decorativeIcon": "FaSpa",
+              "initialOpenItemId": "faq-check-in",
+              "openQuestionLabel": "Open answer",
+              "closeQuestionLabel": "Close answer",
+              "items": [
+                {
+                  "id": "faq-check-in",
+                  "number": "01",
+                  "question": "What are the check-in and check-out times?",
+                  "answer": "Check-in time is 2:00 PM and check-out time is 12:00 PM. For early check-in or late check-out, please contact our front desk in advance. Requests are subject to availability."
+                },
+                {
+                  "id": "faq-airport-transfer",
+                  "number": "02",
+                  "question": "Do you offer airport transfers?",
+                  "answer": "Yes, private airport transfers can be arranged on request. Please share your flight details with our team before arrival so we can coordinate your pickup."
+                },
+                {
+                  "id": "faq-breakfast",
+                  "number": "03",
+                  "question": "Is breakfast included in the room rate?",
+                  "answer": "Breakfast inclusion depends on your selected room package. The booking summary clearly shows whether daily breakfast is included with your reservation."
+                },
+                {
+                  "id": "faq-dining",
+                  "number": "04",
+                  "question": "What dining options are available at the resort?",
+                  "answer": "Our resort offers all-day dining, regional specialties, international cuisine, private dining experiences and in-room service for a comfortable stay."
+                },
+                {
+                  "id": "faq-spa",
+                  "number": "05",
+                  "question": "Do you have a spa and wellness center?",
+                  "answer": "Yes, our wellness center offers relaxing spa therapies, rejuvenating treatments, meditation sessions and personalized wellness experiences."
+                },
+                {
+                  "id": "faq-children",
+                  "number": "06",
+                  "question": "Are there activities for children?",
+                  "answer": "Yes, we offer supervised games, creative activities and family-friendly experiences designed to keep younger guests engaged and entertained."
+                },
+                {
+                  "id": "faq-wifi",
+                  "number": "07",
+                  "question": "Is Wi-Fi available at the resort?",
+                  "answer": "Complimentary high-speed Wi-Fi is available in guest rooms and throughout the resort's main public areas."
+                },
+                {
+                  "id": "faq-private-event",
+                  "number": "08",
+                  "question": "Can I host a private event or wedding at Velora?",
+                  "answer": "Yes, our event team can help plan intimate celebrations, destination weddings and private gatherings with customized spaces, menus and services."
+                },
+                {
+                  "id": "faq-cancellation",
+                  "number": "09",
+                  "question": "What is your cancellation policy?",
+                  "answer": "Cancellation terms depend on the room package and dates selected. Please review the policy shown during booking or contact our reservations team for assistance."
+                },
+                {
+                  "id": "faq-pets",
+                  "number": "10",
+                  "question": "Do you allow pets?",
+                  "answer": "Selected accommodation options may welcome pets with prior approval. Please contact us before booking so our team can confirm availability and applicable guidelines."
+                }
+              ]
+            }
+          }
+        },
+        "Amenities": {
+          "variants": {
+            "HotelAmenities1": {
+              "eyebrow": "Our Amenities",
+              "titleLine1": "World-Class Amenities",
+              "titleLine2": "for a",
+              "titleHighlight": "Perfect Stay",
+              "description": "Discover an exceptional range of amenities designed for comfort, relaxation and unforgettable experiences at Velora Resort & Spa.",
+              "items": [
+                {
+                  "id": "amenity-infinity-pool",
+                  "number": "01",
+                  "icon": "FaSwimmingPool",
+                  "title": "Infinity Swimming Pool",
+                  "description": "Take a refreshing dip in our stunning infinity pool overlooking the breathtaking landscape. Relax on comfortable loungers and enjoy a peaceful escape surrounded by nature.",
+                  "image": "/amenities/01_pool.webp",
+                  "imageAlt": "Infinity swimming pool overlooking the ocean at sunset"
+                },
+                {
+                  "id": "amenity-fine-dining",
+                  "number": "02",
+                  "icon": "FaUtensils",
+                  "title": "Fine Dining Restaurant",
+                  "description": "Savor a delightful culinary journey with our multi-cuisine restaurant. From local flavors to international dishes, every meal is crafted with the finest ingredients.",
+                  "image": "/amenities/02_restaurant.webp",
+                  "imageAlt": "Fine dining restaurant with warm sunset views"
+                },
+                {
+                  "id": "amenity-spa-wellness",
+                  "number": "03",
+                  "icon": "FaSpa",
+                  "title": "Spa & Wellness",
+                  "description": "Rejuvenate your mind, body and soul at our luxurious spa. Indulge in wellness therapies, traditional treatments and modern techniques designed to help you relax and recharge.",
+                  "image": "/amenities/03_spa.webp",
+                  "imageAlt": "Calm spa treatment room with ocean views"
+                },
+                {
+                  "id": "amenity-fitness-center",
+                  "number": "04",
+                  "icon": "FaDumbbell",
+                  "title": "Fitness Center",
+                  "description": "Stay active even while you relax. Our fully equipped fitness center offers modern equipment, personal training options and a motivating environment for your wellness routine.",
+                  "image": "/amenities/04_gym.webp",
+                  "imageAlt": "Modern resort fitness center with tropical views"
+                },
+                {
+                  "id": "amenity-accommodation",
+                  "number": "05",
+                  "icon": "FaBed",
+                  "title": "Luxurious Accommodation",
+                  "description": "Experience ultimate comfort in our spacious rooms, suites and private villas. Each stay is thoughtfully designed with modern amenities, elegant interiors and breathtaking views.",
+                  "image": "/amenities/05_room.webp",
+                  "imageAlt": "Luxurious resort room with a private ocean-view balcony"
+                },
+                {
+                  "id": "amenity-outdoor-activities",
+                  "number": "06",
+                  "icon": "FaHiking",
+                  "title": "Outdoor Activities",
+                  "description": "Explore the beauty around Velora Resort & Spa with nature trails, guided tours, water sports and memorable adventure experiences for guests of all ages.",
+                  "image": "/amenities/06_evening_lounge.webp",
+                  "imageAlt": "Guests enjoying an outdoor sunset lounge experience"
+                }
+              ]
+            }
+          }
+        },
+        "RoomsSuites": {
+          "variants": {
+            "HotelRoomsSuites1": {
+              "eyebrow": "Rooms Suites",
+              "title": "Exclusive",
+              "titleHighlight": "Rooms Suites",
+              "description": "Choose from our specially curated rooms and suites and enjoy a perfect blend of luxury, comfort and unforgettable experiences at Velora Resort & Spa.",
+              "homeEyebrow": "Our Rooms & Suites",
+              "homeTitle": "Rooms & Suites",
+              "homeDescription": "Choose from a variety of elegantly designed rooms and suites, each offering modern amenities, breathtaking views and the perfect blend of comfort and luxury.",
+              "homeViewAllLabel": "View All Rooms",
+              "homeViewAllUrl": "/rooms-suites",
+              "homeBookLabel": "Book",
+              "homeFromLabel": "From",
+              "homeSliderIntervalMs": 5000,
+              "popularLabel": "Most Popular",
+              "startingFromLabel": "Starting From",
+              "perNightLabel": "Night",
+              "viewPackageLabel": "View Package",
+              "amenitiesTitle": "Room Amenities",
+              "highlightsTitle": "Key Highlights",
+              "galleryTitle": "Gallery",
+              "checkInLabel": "Check In",
+              "checkOutLabel": "Check Out",
+              "previousImageLabel": "Show previous room image",
+              "nextImageLabel": "Show next room image",
+              "overviewFeatures": [
+                {
+                  "id": "rooms-overview-stay",
+                  "icon": "FaBed",
+                  "title": "Luxury Stay",
+                  "description": "Premium Rooms & Suites"
+                },
+                {
+                  "id": "rooms-overview-dining",
+                  "icon": "FaConciergeBell",
+                  "title": "Fine Dining",
+                  "description": "Exquisite Culinary Experiences"
+                },
+                {
+                  "id": "rooms-overview-wellness",
+                  "icon": "FaSpa",
+                  "title": "Spa & Wellness",
+                  "description": "Rejuvenate Your Senses"
+                },
+                {
+                  "id": "rooms-overview-activities",
+                  "icon": "FaSun",
+                  "title": "Exciting Activities",
+                  "description": "Memorable Experiences"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": "ocean-view-suite",
+                  "title": "Ocean View Suite",
+                  "category": "For Couples",
+                  "description": "Experience breathtaking sea views with elegant interiors, premium amenities and a private balcony for a truly relaxing stay.",
+                  "image": "/other/1.webp",
+                  "imageAlt": "Elegant Ocean View Suite at Velora Resort",
+                  "price": "$799",
+                  "nights": "2 Nights",
+                  "guests": "2 Guests",
+                  "bed": "1 King Bed",
+                  "view": "Ocean View",
+                  "size": "65 m²",
+                  "checkIn": "2:00 PM",
+                  "checkOut": "12:00 PM",
+                  "aboutTitle": "About Ocean View Suite",
+                  "aboutParagraphs": [
+                    {
+                      "id": "ocean-about-1",
+                      "text": "Our Ocean View Suite offers a serene retreat with beautiful coastal views. Spacious interiors, elegant décor and modern facilities create a warm atmosphere for a memorable resort stay."
+                    },
+                    {
+                      "id": "ocean-about-2",
+                      "text": "Enjoy a peaceful morning, relax in the comfortable seating area and unwind in a thoughtfully designed suite where every detail supports complete comfort."
+                    }
+                  ],
+                  "features": [
+                    {
+                      "id": "ocean-feature-bed",
+                      "icon": "FaBed",
+                      "title": "King Bed"
+                    },
+                    {
+                      "id": "ocean-feature-view",
+                      "icon": "FaSun",
+                      "title": "Ocean View"
+                    },
+                    {
+                      "id": "ocean-feature-breakfast",
+                      "icon": "FaUtensils",
+                      "title": "Breakfast"
+                    },
+                    {
+                      "id": "ocean-feature-gift",
+                      "icon": "FaGift",
+                      "title": "Premium Amenities"
+                    }
+                  ],
+                  "highlights": [
+                    {
+                      "id": "ocean-highlight-view",
+                      "icon": "FaSun",
+                      "title": "Stunning Ocean Views"
+                    },
+                    {
+                      "id": "ocean-highlight-space",
+                      "icon": "FaBed",
+                      "title": "Spacious Living Area"
+                    },
+                    {
+                      "id": "ocean-highlight-pool",
+                      "icon": "FaSwimmingPool",
+                      "title": "Pool Access"
+                    },
+                    {
+                      "id": "ocean-highlight-bath",
+                      "icon": "FaBath",
+                      "title": "Luxurious Bathroom"
+                    }
+                  ],
+                  "amenities": [
+                    {
+                      "id": "ocean-amenity-bed",
+                      "icon": "FaBed",
+                      "label": "Premium King Bed"
+                    },
+                    {
+                      "id": "ocean-amenity-minibar",
+                      "icon": "FaGift",
+                      "label": "Curated Mini Bar"
+                    },
+                    {
+                      "id": "ocean-amenity-coffee",
+                      "icon": "FaCoffee",
+                      "label": "Coffee Maker"
+                    },
+                    {
+                      "id": "ocean-amenity-safe",
+                      "icon": "FaLock",
+                      "label": "In-Room Safe"
+                    },
+                    {
+                      "id": "ocean-amenity-air",
+                      "icon": "FaSnowflake",
+                      "label": "Air Conditioning"
+                    },
+                    {
+                      "id": "ocean-amenity-wifi",
+                      "icon": "FaWifi",
+                      "label": "Free Wi-Fi"
+                    },
+                    {
+                      "id": "ocean-amenity-tv",
+                      "icon": "FaTv",
+                      "label": "Flat Screen TV"
+                    },
+                    {
+                      "id": "ocean-amenity-bath",
+                      "icon": "FaBath",
+                      "label": "Luxury Bathroom"
+                    },
+                    {
+                      "id": "ocean-amenity-service",
+                      "icon": "FaConciergeBell",
+                      "label": "24/7 Room Service"
+                    },
+                    {
+                      "id": "ocean-amenity-dining",
+                      "icon": "FaUtensils",
+                      "label": "Daily Breakfast"
+                    }
+                  ],
+                  "gallery": [
+                    {
+                      "id": "ocean-suite-gallery-1",
+                      "image": "/other/1.webp",
+                      "imageAlt": "ocean suite view 1"
+                    },
+                    {
+                      "id": "ocean-suite-gallery-2",
+                      "image": "/other/infinity_pool.webp",
+                      "imageAlt": "ocean suite view 2"
+                    },
+                    {
+                      "id": "ocean-suite-gallery-3",
+                      "image": "/other/3.webp",
+                      "imageAlt": "ocean suite view 3"
+                    },
+                    {
+                      "id": "ocean-suite-gallery-4",
+                      "image": "/other/4.webp",
+                      "imageAlt": "ocean suite view 4"
+                    }
+                  ],
+                  "breadcrumb": {
+                    "title": "Rooms Suites Details",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "ocean-breadcrumb-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "ocean-breadcrumb-rooms",
+                        "label": "Rooms & Suites",
+                        "url": "/rooms-suites"
+                      },
+                      {
+                        "id": "ocean-breadcrumb-current",
+                        "label": "Rooms Suites Details"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "family-suite",
+                  "title": "Family Suite",
+                  "category": "For Families",
+                  "description": "Spacious and comfortable suites designed for families, with flexible sleeping space and easy access to memorable resort activities.",
+                  "image": "/other/4.webp",
+                  "imageAlt": "Family Suite with resort pool access",
+                  "price": "$999",
+                  "nights": "3 Nights",
+                  "guests": "4 Guests",
+                  "bed": "2 Queen Beds",
+                  "view": "Resort View",
+                  "size": "82 m²",
+                  "checkIn": "2:00 PM",
+                  "checkOut": "12:00 PM",
+                  "aboutTitle": "About Family Suite",
+                  "aboutParagraphs": [
+                    {
+                      "id": "family-about-1",
+                      "text": "The Family Suite brings everyone together with generous living space, comfortable bedding and thoughtful conveniences for adults and children."
+                    },
+                    {
+                      "id": "family-about-2",
+                      "text": "Enjoy easy access to the pool, family dining and resort activities while returning to a calm private space at the end of every day."
+                    }
+                  ],
+                  "features": [
+                    {
+                      "id": "family-feature-rooms",
+                      "icon": "FaBed",
+                      "title": "Spacious Rooms"
+                    },
+                    {
+                      "id": "family-feature-breakfast",
+                      "icon": "FaUtensils",
+                      "title": "Daily Breakfast"
+                    },
+                    {
+                      "id": "family-feature-guests",
+                      "icon": "FaUsers",
+                      "title": "Family Friendly"
+                    },
+                    {
+                      "id": "family-feature-pool",
+                      "icon": "FaSwimmingPool",
+                      "title": "Resort Activities"
+                    }
+                  ],
+                  "highlights": [
+                    {
+                      "id": "family-highlight-space",
+                      "icon": "FaUsers",
+                      "title": "Family Living Space"
+                    },
+                    {
+                      "id": "family-highlight-beds",
+                      "icon": "FaBed",
+                      "title": "Flexible Bedding"
+                    },
+                    {
+                      "id": "family-highlight-pool",
+                      "icon": "FaSwimmingPool",
+                      "title": "Poolside Moments"
+                    },
+                    {
+                      "id": "family-highlight-dining",
+                      "icon": "FaUtensils",
+                      "title": "Family Dining"
+                    }
+                  ],
+                  "amenities": [
+                    {
+                      "id": "family-amenity-bed",
+                      "icon": "FaBed",
+                      "label": "Premium King Bed"
+                    },
+                    {
+                      "id": "family-amenity-minibar",
+                      "icon": "FaGift",
+                      "label": "Curated Mini Bar"
+                    },
+                    {
+                      "id": "family-amenity-coffee",
+                      "icon": "FaCoffee",
+                      "label": "Coffee Maker"
+                    },
+                    {
+                      "id": "family-amenity-safe",
+                      "icon": "FaLock",
+                      "label": "In-Room Safe"
+                    },
+                    {
+                      "id": "family-amenity-air",
+                      "icon": "FaSnowflake",
+                      "label": "Air Conditioning"
+                    },
+                    {
+                      "id": "family-amenity-wifi",
+                      "icon": "FaWifi",
+                      "label": "Free Wi-Fi"
+                    },
+                    {
+                      "id": "family-amenity-tv",
+                      "icon": "FaTv",
+                      "label": "Flat Screen TV"
+                    },
+                    {
+                      "id": "family-amenity-bath",
+                      "icon": "FaBath",
+                      "label": "Luxury Bathroom"
+                    },
+                    {
+                      "id": "family-amenity-service",
+                      "icon": "FaConciergeBell",
+                      "label": "24/7 Room Service"
+                    },
+                    {
+                      "id": "family-amenity-dining",
+                      "icon": "FaUtensils",
+                      "label": "Daily Breakfast"
+                    }
+                  ],
+                  "gallery": [
+                    {
+                      "id": "family-suite-gallery-1",
+                      "image": "/other/4.webp",
+                      "imageAlt": "family suite view 1"
+                    },
+                    {
+                      "id": "family-suite-gallery-2",
+                      "image": "/other/2.webp",
+                      "imageAlt": "family suite view 2"
+                    },
+                    {
+                      "id": "family-suite-gallery-3",
+                      "image": "/other/resturant.webp",
+                      "imageAlt": "family suite view 3"
+                    },
+                    {
+                      "id": "family-suite-gallery-4",
+                      "image": "/other/infinity_pool.webp",
+                      "imageAlt": "family suite view 4"
+                    }
+                  ],
+                  "breadcrumb": {
+                    "title": "Rooms Suites Details",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "family-breadcrumb-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "family-breadcrumb-rooms",
+                        "label": "Rooms & Suites",
+                        "url": "/rooms-suites"
+                      },
+                      {
+                        "id": "family-breadcrumb-current",
+                        "label": "Rooms Suites Details"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "wellness-suite",
+                  "title": "Wellness Suite",
+                  "category": "For Relaxation",
+                  "description": "Rejuvenate your mind and body in a peaceful suite with wellness-inspired comforts, calm interiors and restorative resort experiences.",
+                  "image": "/other/3.webp",
+                  "imageAlt": "Peaceful Wellness Suite at Velora Resort",
+                  "price": "$899",
+                  "nights": "3 Nights",
+                  "guests": "2 Guests",
+                  "bed": "1 King Bed",
+                  "view": "Garden View",
+                  "size": "70 m²",
+                  "checkIn": "2:00 PM",
+                  "checkOut": "12:00 PM",
+                  "aboutTitle": "About Wellness Suite",
+                  "aboutParagraphs": [
+                    {
+                      "id": "wellness-about-1",
+                      "text": "Designed around rest and renewal, the Wellness Suite combines soft natural light, soothing interiors and carefully selected comforts."
+                    },
+                    {
+                      "id": "wellness-about-2",
+                      "text": "Pair your stay with spa treatments, mindful mornings and nourishing dining for a restorative Velora experience."
+                    }
+                  ],
+                  "features": [
+                    {
+                      "id": "wellness-feature-spa",
+                      "icon": "FaSpa",
+                      "title": "Spa Treatments"
+                    },
+                    {
+                      "id": "wellness-feature-sun",
+                      "icon": "FaSun",
+                      "title": "Mindful Mornings"
+                    },
+                    {
+                      "id": "wellness-feature-comfort",
+                      "icon": "FaBed",
+                      "title": "Wellness Comforts"
+                    },
+                    {
+                      "id": "wellness-feature-dining",
+                      "icon": "FaUtensils",
+                      "title": "Healthy Dining"
+                    }
+                  ],
+                  "highlights": [
+                    {
+                      "id": "wellness-highlight-spa",
+                      "icon": "FaSpa",
+                      "title": "Wellness Rituals"
+                    },
+                    {
+                      "id": "wellness-highlight-calm",
+                      "icon": "FaSun",
+                      "title": "Calming Ambience"
+                    },
+                    {
+                      "id": "wellness-highlight-bed",
+                      "icon": "FaBed",
+                      "title": "Premium Sleep"
+                    },
+                    {
+                      "id": "wellness-highlight-bath",
+                      "icon": "FaBath",
+                      "title": "Spa Bathroom"
+                    }
+                  ],
+                  "amenities": [
+                    {
+                      "id": "wellness-amenity-bed",
+                      "icon": "FaBed",
+                      "label": "Premium King Bed"
+                    },
+                    {
+                      "id": "wellness-amenity-minibar",
+                      "icon": "FaGift",
+                      "label": "Curated Mini Bar"
+                    },
+                    {
+                      "id": "wellness-amenity-coffee",
+                      "icon": "FaCoffee",
+                      "label": "Coffee Maker"
+                    },
+                    {
+                      "id": "wellness-amenity-safe",
+                      "icon": "FaLock",
+                      "label": "In-Room Safe"
+                    },
+                    {
+                      "id": "wellness-amenity-air",
+                      "icon": "FaSnowflake",
+                      "label": "Air Conditioning"
+                    },
+                    {
+                      "id": "wellness-amenity-wifi",
+                      "icon": "FaWifi",
+                      "label": "Free Wi-Fi"
+                    },
+                    {
+                      "id": "wellness-amenity-tv",
+                      "icon": "FaTv",
+                      "label": "Flat Screen TV"
+                    },
+                    {
+                      "id": "wellness-amenity-bath",
+                      "icon": "FaBath",
+                      "label": "Luxury Bathroom"
+                    },
+                    {
+                      "id": "wellness-amenity-service",
+                      "icon": "FaConciergeBell",
+                      "label": "24/7 Room Service"
+                    },
+                    {
+                      "id": "wellness-amenity-dining",
+                      "icon": "FaUtensils",
+                      "label": "Daily Breakfast"
+                    }
+                  ],
+                  "gallery": [
+                    {
+                      "id": "wellness-suite-gallery-1",
+                      "image": "/other/3.webp",
+                      "imageAlt": "wellness suite view 1"
+                    },
+                    {
+                      "id": "wellness-suite-gallery-2",
+                      "image": "/other/spa.webp",
+                      "imageAlt": "wellness suite view 2"
+                    },
+                    {
+                      "id": "wellness-suite-gallery-3",
+                      "image": "/other/1.webp",
+                      "imageAlt": "wellness suite view 3"
+                    },
+                    {
+                      "id": "wellness-suite-gallery-4",
+                      "image": "/other/5.webp",
+                      "imageAlt": "wellness suite view 4"
+                    }
+                  ],
+                  "breadcrumb": {
+                    "title": "Rooms Suites Details",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "wellness-breadcrumb-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "wellness-breadcrumb-rooms",
+                        "label": "Rooms & Suites",
+                        "url": "/rooms-suites"
+                      },
+                      {
+                        "id": "wellness-breadcrumb-current",
+                        "label": "Rooms Suites Details"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "honeymoon-suite",
+                  "title": "Honeymoon Suite",
+                  "category": "For Newlyweds",
+                  "description": "Celebrate together in an intimate suite with elegant styling, personalized touches and romantic resort experiences.",
+                  "image": "/other/2.webp",
+                  "imageAlt": "Romantic Honeymoon Suite at Velora Resort",
+                  "price": "$1,299",
+                  "nights": "4 Nights",
+                  "guests": "2 Guests",
+                  "bed": "1 King Bed",
+                  "view": "Sunset View",
+                  "size": "75 m²",
+                  "checkIn": "2:00 PM",
+                  "checkOut": "12:00 PM",
+                  "aboutTitle": "About Honeymoon Suite",
+                  "aboutParagraphs": [
+                    {
+                      "id": "honeymoon-about-1",
+                      "text": "The Honeymoon Suite is a private retreat created for meaningful moments, with elegant interiors, romantic details and attentive service."
+                    },
+                    {
+                      "id": "honeymoon-about-2",
+                      "text": "Enjoy private dining, a couple wellness experience and peaceful evenings designed to make your celebration unforgettable."
+                    }
+                  ],
+                  "features": [
+                    {
+                      "id": "honeymoon-feature-bed",
+                      "icon": "FaBed",
+                      "title": "Luxury Suite"
+                    },
+                    {
+                      "id": "honeymoon-feature-dining",
+                      "icon": "FaConciergeBell",
+                      "title": "Private Dining"
+                    },
+                    {
+                      "id": "honeymoon-feature-heart",
+                      "icon": "FaHeart",
+                      "title": "Couple Spa"
+                    },
+                    {
+                      "id": "honeymoon-feature-gift",
+                      "icon": "FaGift",
+                      "title": "Romantic Setup"
+                    }
+                  ],
+                  "highlights": [
+                    {
+                      "id": "honeymoon-highlight-romance",
+                      "icon": "FaHeart",
+                      "title": "Romantic Setting"
+                    },
+                    {
+                      "id": "honeymoon-highlight-dining",
+                      "icon": "FaConciergeBell",
+                      "title": "Private Dining"
+                    },
+                    {
+                      "id": "honeymoon-highlight-spa",
+                      "icon": "FaSpa",
+                      "title": "Couple Wellness"
+                    },
+                    {
+                      "id": "honeymoon-highlight-gift",
+                      "icon": "FaGift",
+                      "title": "Welcome Surprise"
+                    }
+                  ],
+                  "amenities": [
+                    {
+                      "id": "honeymoon-amenity-bed",
+                      "icon": "FaBed",
+                      "label": "Premium King Bed"
+                    },
+                    {
+                      "id": "honeymoon-amenity-minibar",
+                      "icon": "FaGift",
+                      "label": "Curated Mini Bar"
+                    },
+                    {
+                      "id": "honeymoon-amenity-coffee",
+                      "icon": "FaCoffee",
+                      "label": "Coffee Maker"
+                    },
+                    {
+                      "id": "honeymoon-amenity-safe",
+                      "icon": "FaLock",
+                      "label": "In-Room Safe"
+                    },
+                    {
+                      "id": "honeymoon-amenity-air",
+                      "icon": "FaSnowflake",
+                      "label": "Air Conditioning"
+                    },
+                    {
+                      "id": "honeymoon-amenity-wifi",
+                      "icon": "FaWifi",
+                      "label": "Free Wi-Fi"
+                    },
+                    {
+                      "id": "honeymoon-amenity-tv",
+                      "icon": "FaTv",
+                      "label": "Flat Screen TV"
+                    },
+                    {
+                      "id": "honeymoon-amenity-bath",
+                      "icon": "FaBath",
+                      "label": "Luxury Bathroom"
+                    },
+                    {
+                      "id": "honeymoon-amenity-service",
+                      "icon": "FaConciergeBell",
+                      "label": "24/7 Room Service"
+                    },
+                    {
+                      "id": "honeymoon-amenity-dining",
+                      "icon": "FaUtensils",
+                      "label": "Daily Breakfast"
+                    }
+                  ],
+                  "gallery": [
+                    {
+                      "id": "honeymoon-suite-gallery-1",
+                      "image": "/other/2.webp",
+                      "imageAlt": "honeymoon suite view 1"
+                    },
+                    {
+                      "id": "honeymoon-suite-gallery-2",
+                      "image": "/other/5.webp",
+                      "imageAlt": "honeymoon suite view 2"
+                    },
+                    {
+                      "id": "honeymoon-suite-gallery-3",
+                      "image": "/other/spa.webp",
+                      "imageAlt": "honeymoon suite view 3"
+                    },
+                    {
+                      "id": "honeymoon-suite-gallery-4",
+                      "image": "/other/resturant.webp",
+                      "imageAlt": "honeymoon suite view 4"
+                    }
+                  ],
+                  "breadcrumb": {
+                    "title": "Rooms Suites Details",
+                    "bgImage": "/main logo/breadcrumb.webp",
+                    "paths": [
+                      {
+                        "id": "honeymoon-breadcrumb-home",
+                        "label": "Home",
+                        "url": "/"
+                      },
+                      {
+                        "id": "honeymoon-breadcrumb-rooms",
+                        "label": "Rooms & Suites",
+                        "url": "/rooms-suites"
+                      },
+                      {
+                        "id": "honeymoon-breadcrumb-current",
+                        "label": "Rooms Suites Details"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "closeImageLabel": "Close room gallery"
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Header": "HotelHeader1",
+          "Footer": "HotelFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "HeroSection",
+                "component": "HotelHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "AboutUs"
+              },
+              {
+                "key": "RoomsSuitesSlider",
+                "component": "RoomsSuitesSlider"
+              },
+              {
+                "key": "Facilities",
+                "component": "Facilities"
+              },
+              {
+                "key": "AmenitiesShowcase",
+                "component": "AmenitiesShowcase"
+              },
+              {
+                "key": "ResortStats",
+                "component": "ResortStats"
+              },
+              {
+                "key": "NearbyPlaces",
+                "component": "NearbyPlaces"
+              },
+              {
+                "key": "Testimonials",
+                "component": "Testimonials"
+              },
+              {
+                "key": "Blogs",
+                "component": "Blogs"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "AboutUs",
+                "component": "AboutUs"
+              },
+              {
+                "key": "MissionVision",
+                "component": "MissionVision"
+              },
+              {
+                "key": "ResortStats",
+                "component": "ResortStats"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "WhyChooseUs"
+              },
+              {
+                "key": "Testimonials",
+                "component": "Testimonials"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "blog": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Blogs",
+                "component": "Blogs"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "blogDetails": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "BlogDetail",
+                "component": "BlogDetail"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Contact",
+                "component": "Contact"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "notFound": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "NotFoundSection",
+                "component": "NotFoundSection"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "gallery": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Gallery",
+                "component": "Gallery"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "amenities": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Amenities",
+                "component": "Amenities"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "activitiesExperiences": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "ActivitiesExperiences",
+                "component": "ActivitiesExperiences"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "faqs": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "Faq",
+                "component": "Faq"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "team": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "OurTeam",
+                "component": "OurTeam"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "roomsSuites": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "RoomsSuites",
+                "component": "RoomsSuites"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          },
+          "roomSuiteDetails": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "HotelHeader1"
+              },
+              {
+                "key": "Breadcrumb",
+                "component": "Breadcrumb"
+              },
+              {
+                "key": "RoomSuiteDetails",
+                "component": "RoomSuiteDetails"
+              },
+              {
+                "key": "Footer",
+                "component": "HotelFooter1"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

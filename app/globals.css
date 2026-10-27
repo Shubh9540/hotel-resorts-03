@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --font-primary: sans-serif;
+  --font-heading: sans-serif;
+  --font-navigation: sans-serif;
+
+  /* Velora Resort & Spa theme */
+  --color-bg-main: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-alt: #f7f3ed;
+  --color-primary: #292832;
+  --color-primary-dark: #12110f;
+  --color-primary-light: #b88a52;
+  --color-secondary: #b88a52;
+  --color-accent: #b88a52;
+  --color-accent-light: #dec39f;
+  --color-text: #625d57;
+  --color-text-light: #837b72;
+  --color-border: #e8dfd4;
+  --color-menu-overlay: rgba(18, 17, 15, 0.88);
+  --color-menu-item: rgba(0, 0, 0, 0.38);
+  --color-menu-item-hover: rgba(184, 138, 82, 0.34);
+  --color-testimonial-overlay: rgba(18, 17, 15, 0.74);
+
+  --color-heading: #292832;
+  --color-white: #ffffff;
+  --color-neutral: #756f68;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
